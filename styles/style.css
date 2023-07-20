@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3c354f;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: #534c64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.red {
+    color: red;
+    width: 30px;
+    height: 24px;
+}
+
+.gamer-g {
+    color: #ff42a5;
+}
+
+#hide {
+    display: none;
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 20px;
+    border: none;
+    color: white;
+    background-color: #f948b2;
+    border-radius: 48px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.blue {
+    background: #4ec5f7;
+}
+
+/* nav-styles */
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 0 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 40px;
+}
+
+.menu-1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-1-c2 {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    margin-left: 5px;
+    width: 262px;
+    height: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-1-c1 ul {
+    display: flex;
+    color: #3c354f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-1-c2 ul {
+    color: #3c354f;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+.menu-1-c2 li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+/* banner section styles */
+.banner-container {
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/Group\ 14.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.banner-description p {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 40px;
+}
+
+.banner-title {
+    color: #0b0223;
+
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-container img {
+    text-align: right;
+    max-width: 100%;
+}
+
+/* online  game section */
+.online-game {
+    padding: 0 150px;
+    margin-top: 120px;
+}
+
+.online-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.online-description h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#funny {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.card-item-section {
+    width: 342px;
+}
+
+.card-item-section p {
+    margin-top: 20px;
+}
+
+.card-item img {
+    height: 400px;
+}
+
+.card-item {
+    position: relative;
+}
+
+.card-item .overlay {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    display: none;
+}
+.overlay .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    font-size: 50px;
+    color: white;
+}
+
+.icons p {
+    color: white;
+}
+
+.card-item:hover .overlay {
+    display: block;
+}
+
+/* play-instantly-description section styles */
+.play-instantly-container {
+    display: flex;
+    padding: 0 150px;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.play-instantly-description {
+    text-align: center;
+}
+
+.play-instantly-description h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    width: 40%;
+}
+
+.play-instantly-description p {
+    width: 40%;
+    text-align-last: right;
+    align-self: start;
+    margin-top: 20px;
+}
+
+.play-instantly-img {
+    position: relative;
+}
+
+.play-instantly-img .img-1 {
+    width: 634px;
+    height: 650px;
+    border-radius: 8px;
+    background: url(<path-to-image>),
+        lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+
+.play-instantly-img .img-2 {
+    position: absolute;
+    left: -130px;
+    bottom: -70px;
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    background: url(<path-to-image>),
+        lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+/* last section styles */
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    gap: 40px;
+}
+
+.btn-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+}
+
+.btn-item:hover {
+    border: 1px solid #f948b2;
+}
+
+.btn-item:hover p {
+    color: #f948b2;
+}
+
+/* footer section styles */
+footer {
+    padding: 40px 10px;
+    background: #0b0223;
+    margin-top: 150px;
+    color: white;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 40px;
+}
+
+.foot-container {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer ul a {
+    color: white;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.policy ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.contact ul a:hover li {
+    text-decoration: underline;
+}
+
+.policy ul li {
+    color: #534c64;
+}
+
+.policy ul a:hover li {
+    text-decoration: underline;
+}
